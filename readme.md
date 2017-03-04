@@ -1,6 +1,6 @@
 # FOCA_Utils
 
-> This app comes from the need that we have to work less on management tasks, such as budget making, and to focus on what really matters, the creation of new objects in our 3D printing studio.
+This app comes from the need that we have to work less on management tasks, such as budget making, and to focus on what really matters, the creation of new objects in our 3D printing studio.
 This app will implement a set of utilities that can be useful for any 3D printing studios, from budgeting to order registry, etc. 
 
 We are starting our 3D printing project, find us @ [FOCA](www.focaprintingstudio.com)
@@ -16,7 +16,7 @@ $ npm install
 ### Run
 
 ```
-$ npm start
+$ gulp run
 ```
 
 ### Build
