@@ -1,9 +1,9 @@
 {
   "name": "focautils",
   "productName": "Focautils",
-  "version": "0.0.0",
-  "description": "My fantabulous app",
-  "license": "MIT",
+  "version": "0.0.1",
+  "description": "FOCA Utilities app",
+  "license": "Creative Commons Attribution-NonCommercial 4.0 International Public License ",
   "repository": "nibbleshifter/focautils",
   "author": {
     "name": "xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun",
@@ -16,9 +16,9 @@
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
   "files": [
-    "index.js",
-    "index.html",
-    "index.css"
+    "app/index.js",
+    "app/index.html",
+    "app/index.css"
   ],
   "keywords": [
     "electron-app",
@@ -31,7 +31,9 @@
     "devtron": "^1.1.0",
     "electron-packager": "^8.0.0",
     "electron": "^1.3.3",
-    "xo": "^0.16.0"
+    "xo": "^0.16.0",
+    "gulp": "^3.9.1",
+    "electron-prebuilt": "1.4.13"
   },
   "xo": {
     "esnext": true,

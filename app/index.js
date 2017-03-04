@@ -1,7 +1,7 @@
 'use strict';
-const electron = require('electron');
+var electron = require('electron');
 
-const app = electron.app;
+var app = electron.app;
 
 // adds debug features like hotkeys for triggering dev tools and reload
 require('electron-debug')();
@@ -16,9 +16,9 @@ function onClosed() {
 }
 
 function createMainWindow() {
-	const win = new electron.BrowserWindow({
-		width: 600,
-		height: 400
+	var win = new electron.BrowserWindow({
+		width: 800,
+		height: 600
 	});
 
 	win.loadURL(`file://${__dirname}/index.html`);
